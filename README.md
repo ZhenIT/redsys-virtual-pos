@@ -12,7 +12,7 @@
 
 ## Prerequisites
 
--   PHP 5.4 or above
+-   PHP 5.6 or above
 
 ## Installation
 
@@ -47,9 +47,9 @@ use nkm\RedsysVirtualPos\Message\WebRequest;
 use nkm\RedsysVirtualPos\Field\Currency;
 use nkm\RedsysVirtualPos\Field\TransactionType;
 
-$secret       = 'Mk9m98IfEblmPfrpsawt7BmxObt98Jev';
+$secret       = 'sq7HjrUOBfKmC576ILgskD5srU870gJ7';
 $merchantCode = '999008881';
-$terminal     = '871';
+$terminal     = '1';
 
 // The Environment object holds connection details
 $env = new nkm\RedsysVirtualPos\Environment\DevelopmentEnvironment();
